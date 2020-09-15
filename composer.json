@@ -7,7 +7,6 @@
     "type": "composer-plugin",
     "require": {
         "symfony/finder": "^5.0",
-        "symfony/filesystem": "^5.0",
         "composer-plugin-api": "^1.0"
     },
     "require-dev": {
