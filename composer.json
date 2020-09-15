@@ -1,0 +1,27 @@
+{
+    "name": "aplify/composer",
+    "description": "aplify's Library Composer",
+    "license": "MIT",
+    "homepage": "https://github.com/aplify/composer",
+    "minimum-stability": "dev",
+    "type": "composer-plugin",
+    "require": {
+        "symfony/finder": "^5.0",
+        "symfony/filesystem": "^5.0",
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aplify\\Composer\\": "/"
+        }
+    },
+    "extra": {
+        "class": [
+            "Aplify\\Composer\\Installer\\Plugin",
+            "Aplify\\Composer\\Merge\\MergePlugin"
+        ]
+    }
+}
